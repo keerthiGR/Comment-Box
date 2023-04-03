@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 50px;
+    width: 70%;
+    text-align: center;
+    background: rgb(246, 244, 244);
+    border-radius: 4px;
+    color: purple ;
+    font-weight: bold;
+}
+.details .label{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.details .label input {
+    width: 70%;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.details .comment input{
+    margin-left: 15px;
+}
+
+#btn{
+   margin: 20px auto;
+   color: white;
+   border: none;
+    background: purple;
+    width: 120px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.user-comment{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     align-items: center;
+     margin-top: 30px;
+ }
+.comment-details{
+    width: 70%;
+    padding: 13px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: rgb(246, 244, 244);
+}
+.comment-details h2{
+    margin-left: 13px;
+}
+.comment-details h3{
+    font-size: 23px;
+    margin: 10px 0;
+} 
+.comment-details .like{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.comment-details .like button{
+    margin-left: 10px;
+}
+.comment-details .like .l{
+    display: flex;
+    margin-left: 13px;
+}
+.comment-details h3{
+
+    margin-left: 27px;
+}
+.comment-details .l i{
+    font-size: 34px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.comment-details .l .likes{
+    color: blue;
+}
+.comment-details .l .dislike{
+    color: red;
+}
+ .del {
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
+    align-self: flex-end;
+}
+
+.user{
+    display: flex;
+}
+.user i{
+    font-size: 30px;
+}
